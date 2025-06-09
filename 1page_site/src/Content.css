@@ -1,0 +1,42 @@
+.content-container h1{
+    color:bisque;
+    margin-left: -10vmin;
+    margin-bottom: 7vmin;
+    font-size: 6vmin;
+}
+
+.content-container h3 {
+    color: beige;
+    margin-top: 1vmin;
+    font-size: 3vmin;
+}
+
+.content-container {
+    margin-top: 10vmin;
+    margin-left: 40vmin;
+}
+
+
+
+.content-container p {
+    font-size: 2vmin;
+    color: azure;
+    margin-left: -9vmin;
+    margin-top: 1vmin;
+}
+
+p:first-child {
+    margin-top: 5vmin;
+}
+
+.btn_our_products {
+    background-color: rgba(0, 0, 0, 0);
+    color: bisque;
+    border-radius: 0.2rem;
+    border: 1px solid bisque;
+    padding: 0.7vmin;
+    font-size: 3vmin;
+    margin-top: 7vmin;
+    margin-left: 12vmin;
+    caret-color: transparent;
+}

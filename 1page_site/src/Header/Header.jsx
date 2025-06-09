@@ -1,0 +1,17 @@
+import Grid2 from './Grid2';
+import Grid3 from './Grid3';
+import './Header.css'
+
+function Header (){
+    return (
+    <header>
+        <div class="header">
+            <img src="" alt="" />
+        </div>
+        <Grid2 />
+        <Grid3 />
+    </header>
+    )
+}
+
+export default Header;
