@@ -3,7 +3,7 @@ import './Content.css'
 function Content() {
 
     function btn_click() {
-        console.log('btn click')
+        console.log('btn click 8')
     }
 
     return (
