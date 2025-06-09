@@ -10,7 +10,6 @@ function Grid2 () {
                     <div className="menu-button2"></div>
                     <div className="menu-button1"></div>
                 </div>
-                <div className="menu-button3"></div>
             </div>
             
         </div>
