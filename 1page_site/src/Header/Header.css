@@ -17,7 +17,7 @@ header {
 }
 
 div.header {
-    height: 4vh;
+    height: 2vw;
 }
 
 .nav-container {
@@ -25,7 +25,7 @@ div.header {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: stretch;
     align-items: center;
-    font-size: 2vmin;
+    font-size: 0.7vw;
 }
 
 a {
@@ -40,5 +40,5 @@ a {
 }
 
 .menu {
-  height: 4vh;
+  height: 1.5vw;
 }
