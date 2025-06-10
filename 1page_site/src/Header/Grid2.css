@@ -19,7 +19,6 @@
     height: 1.2em;
     background-color: #fff;
     width: 0.2em;
-    gap: 1em;
     border-radius: 0.1em;
     transform: scaleY(1) translateY(0);
     transition: transform 1s;
@@ -30,22 +29,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     transition:  transform 0.5s;
     padding: 0.2em;
-    gap: 0.3em;
+    gap: 0.3em; /* Расстояние между элементами */
 }
 
 .menu-button:hover .menu-button2{
     transform: scaleY(1.2) translateY(20%);
     transition: transform 0.5s;
-}
-
-.menu-button:hover .dropdownmenu {
-    display: block;
-    opacity: 1;
-    transition: opacity 0.5s, display 0.5s;
-}
-
-.dropdownmenu {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.5s, display 0.5s;
 }

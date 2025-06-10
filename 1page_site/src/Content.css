@@ -1,42 +1,42 @@
-.content-container h1{
+.content-container h1{  /* Лазерная резка*/
     color:bisque;
-    margin-left: -10vmin;
-    margin-bottom: 7vmin;
-    font-size: 6vmin;
+    margin-left: -10dvw;
+    margin-bottom: 4dvw;
+    font-size: 3dvw;
 }
 
-.content-container h3 {
+.content-container h3 { /* карт мира ... */
     color: beige;
-    margin-top: 1vmin;
-    font-size: 3vmin;
+    margin-top: 1dvw;
+    font-size: 1.7dvw;
 }
 
-.content-container {
-    margin-top: 10vmin;
-    margin-left: 40vmin;
+.content-container { /* Весь контейнер с заголовками, текстом и кнопкой */ 
+    margin-top: 8dvw;
+    margin-left: 30dvw;
 }
 
 
 
-.content-container p {
-    font-size: 2vmin;
+.content-container p { /* производятся на высокоточном ... */
+    font-size: 1.2dvw;
     color: azure;
-    margin-left: -9vmin;
-    margin-top: 1vmin;
+    margin-left: -9dvw;
+    margin-top: 1dvw;
 }
 
 p:first-child {
-    margin-top: 5vmin;
+    margin-top: 3dvw;
 }
 
-.btn_our_products {
+.btn_our_products { /* Кнопка */
     background-color: rgba(0, 0, 0, 0);
     color: bisque;
-    border-radius: 0.2rem;
+    border-radius: 0.3em;
     border: 1px solid bisque;
-    padding: 0.7vmin;
-    font-size: 3vmin;
-    margin-top: 7vmin;
-    margin-left: 12vmin;
+    padding: 0.5em;
+    font-size: 1.5dvw;
+    margin-top: 6dvw;
+    margin-left: 10dvw;
     caret-color: transparent;
 }

@@ -9,6 +9,7 @@ function Header (){
             <img src="" alt="" />
         </div>
         <Grid2 />
+        <div></div>
         <Grid3 />
     </header>
     )

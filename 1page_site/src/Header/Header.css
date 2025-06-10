@@ -13,7 +13,7 @@ body{
 
 header {
     display: grid;
-    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-columns: 4fr 1fr 1fr 3fr;
 }
 
 div.header {
@@ -25,7 +25,8 @@ div.header {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: stretch;
     align-items: center;
-    font-size: 0.7vw;
+    font-size: 1dvw;
+    gap: 2%;
 }
 
 a {
@@ -37,6 +38,7 @@ a {
     -webkit-mask-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0,0,0,1) 80%,rgba(0, 0, 0, 0) 100%);
     overflow: hidden;
     white-space: nowrap;
+    /* background-color: blue; */
 }
 
 .menu {
