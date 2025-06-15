@@ -1,4 +1,4 @@
-import './Header.css'
+import './Grid3.css'
 
 function Grid3 () {
     return (
