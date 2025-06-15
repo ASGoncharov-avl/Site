@@ -24,27 +24,6 @@ div.header {
     height: 2dvw;
 }
 
-.nav-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: stretch;
-    align-items: center;
-    font-size: 1dvw;
-    gap: 0.5dvw;
-}
-
-a {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-    color: white; 
-    -webkit-mask-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0,0,0,1) 80%,rgba(0, 0, 0, 0) 100%);
-    overflow: hidden;
-    white-space: nowrap;
-    /* background-color: blue; */
-}
-
 .menu {
   height: 1.5dvw;
 }
