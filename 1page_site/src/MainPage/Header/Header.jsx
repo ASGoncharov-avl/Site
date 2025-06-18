@@ -8,11 +8,12 @@ function Header (){
     return (
     <header>
         <div className="header">
-            <img src="#" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/Components/img/RadRaylogo.png`}  alt="RadRay" />
         </div>
         <Grid2 />
-        <div></div>
+        <div> </div>
         <Grid3 />
+        <div> </div>
     </header>
     )
 }

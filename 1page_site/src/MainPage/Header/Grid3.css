@@ -4,7 +4,7 @@
     justify-content: stretch;
     align-items: center;
     font-size: 1dvw;
-    gap: 0.5dvw;
+    gap: 0.2dvw;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
     text-align: center;
     text-decoration: none;
     color: white; 
-    -webkit-mask-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0,0,0,1) 85%,rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0,0,0,1) 60%,rgba(0, 0, 0, 0) 100%);
     overflow: hidden;
     white-space: nowrap;
     /* background-color: blue; */
