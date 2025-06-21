@@ -12,22 +12,21 @@ body{
 }
 
 header {
+    margin-top: 1.5em;
     display: grid;
     grid-template-columns: 4fr 1fr 0.3fr 3fr 0.7fr;
-    justify-items: center;
 }
 
-div.header {
-    height: 3dvw;
-}
+/* div.logo {
+    display: inline;
+    position: left;
+} */
 
 .menu {
-  height: 1.5dvw;
+    height: 1.5dvw;
 }
 
-img {
-    display: grid;
-    width: 7%;
-    height: 100%;
-    justify-items: center;
+img.logo {
+    padding-left: 6dvw;
+    width: 4dvw;
 }
