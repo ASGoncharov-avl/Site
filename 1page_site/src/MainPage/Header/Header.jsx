@@ -7,9 +7,9 @@ function Header (){
 
     return (
     <header>
-        <div className="header">
-            <img src={`${process.env.PUBLIC_URL}/Components/img/RadRaylogo.png`}  alt="RadRay" />
-        </div>
+        {/* <div className="logo"> */}
+            <img className="logo" src={`${process.env.PUBLIC_URL}/Components/img/RadRaylogo.png`}  alt="RadRay" />
+        {/* </div> */}
         <Grid2 />
         <div></div>
         <Grid3 />
