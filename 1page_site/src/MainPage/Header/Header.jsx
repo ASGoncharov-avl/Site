@@ -11,9 +11,9 @@ function Header (){
             <img src={`${process.env.PUBLIC_URL}/Components/img/RadRaylogo.png`}  alt="RadRay" />
         </div>
         <Grid2 />
-        <div> </div>
+        <div></div>
         <Grid3 />
-        <div> </div>
+        <div></div>
     </header>
     )
 }
